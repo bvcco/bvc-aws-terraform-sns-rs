@@ -1,3 +1,20 @@
+/*
+* # AWS Terraform SNS Module
+*
+* This module sets up an SNS topic and adds up to 5 subscriptions.
+*
+* ## Basic Usage
+*
+* ```HCL
+* module "sns" {
+*   source = "git@github.com:bvcco/bvc-aws-terraform-sns.git//?ref=v1.4.0"
+*
+*   name = "my-example-topic"
+*
+* }
+* ```
+*/
+
 #tfsec:ignore:aws-sns-topic-encryption-use-cmk
 resource "aws_sns_topic" "sns_topic" {
   name              = var.topic_name

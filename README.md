@@ -1,6 +1,21 @@
 # bvc-aws-terraform-sns
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+# AWS Terraform SNS Module
+
+This module sets up an SNS topic and adds up to 5 subscriptions.
+
+## Basic Usage
+
+```HCL
+module "sns" {
+  source = "git@github.com:bvcco/bvc-aws-terraform-sns.git//?ref=v1.4.0"
+
+  name = "my-example-topic"
+
+}
+```
+
 ## Requirements
 
 | Name | Version |

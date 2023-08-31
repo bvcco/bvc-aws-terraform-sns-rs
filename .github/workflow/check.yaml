@@ -1,0 +1,8 @@
+name: "Pre-Commit Checks"
+
+on:
+  pull_request:
+
+jobs:
+  pre-commit:
+    uses: bvcco/bvc_devops/.github/workflows/terraform_plan.yaml@v0.0.2-alpha
