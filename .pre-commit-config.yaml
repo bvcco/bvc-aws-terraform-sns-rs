@@ -37,9 +37,9 @@ repos:
 
       - id: terraform_checkov
         args:
+          - --args=-d .
           - --args=--quiet
           - --args=--compact
-          - --args=--soft-fail
 
       - id: terraform_tfsec
 
