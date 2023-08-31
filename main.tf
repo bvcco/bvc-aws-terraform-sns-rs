@@ -1,6 +1,7 @@
 resource "aws_sns_topic" "sns_topic" {
   name              = var.topic_name
-  kms_master_key_id = "alias/aws/sns"
+  description       = "SNS topic for ${var.topic_name}"
+  kms_master_key_id = local.kms_key_id
 }
 
 resource "aws_sns_topic_subscription" "subscription_1" {
