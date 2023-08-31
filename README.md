@@ -12,7 +12,7 @@
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | >= 4.50.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 5.14.0 |
 
 ## Modules
 
@@ -38,7 +38,7 @@ No modules.
 | <a name="input_create_subscription_3"></a> [create\_subscription\_3](#input\_create\_subscription\_3) | Set to true to enable subscription. | `bool` | `false` | no |
 | <a name="input_create_subscription_4"></a> [create\_subscription\_4](#input\_create\_subscription\_4) | Set to true to enable subscription. | `bool` | `false` | no |
 | <a name="input_create_subscription_5"></a> [create\_subscription\_5](#input\_create\_subscription\_5) | Set to true to enable subscription. | `bool` | `false` | no |
-| <a name="input_encryption_enabled"></a> [encryption\_enabled](#input\_encryption\_enabled) | Set to true to enable encryption. | `bool` | `false` | no |
+| <a name="input_encryption_enabled"></a> [encryption\_enabled](#input\_encryption\_enabled) | Set to true to enable encryption. | `bool` | `true` | no |
 | <a name="input_endpoint_1"></a> [endpoint\_1](#input\_endpoint\_1) | The subscription's endpoint #1. | `string` | `""` | no |
 | <a name="input_endpoint_2"></a> [endpoint\_2](#input\_endpoint\_2) | The subscription's endpoint #2. | `string` | `""` | no |
 | <a name="input_endpoint_3"></a> [endpoint\_3](#input\_endpoint\_3) | The subscription's endpoint #3. | `string` | `""` | no |

@@ -1,6 +1,7 @@
+#tfsec:ignore:aws-sns-topic-encryption-use-cmk
 resource "aws_sns_topic" "sns_topic" {
   name              = var.topic_name
-  description       = "SNS topic for ${var.topic_name}"
+  display_name      = "SNS topic for ${var.topic_name}"
   kms_master_key_id = local.kms_key_id
 }
 

@@ -118,6 +118,6 @@ variable "kms_master_key_id" {
 variable "encryption_enabled" {
   description = "Set to true to enable encryption."
   type        = bool
-  default     = false
+  default     = true
 }
 #--- Encryption Config ---#
